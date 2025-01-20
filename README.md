@@ -48,7 +48,7 @@ After installation is complete, run the React app using Vite:
 npm run dev
 ```
 
-This will start the frontend application on http://localhost:3000.
+This will start the frontend application on http://localhost:5173.
 
 #### 3. Backend Setup
 
