@@ -1,0 +1,58 @@
+.pagination {
+    margin-top: 25px;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.pagination .pagination .page-link {
+    margin: 0 0.2rem;
+    border-color: transparent;
+    padding: 0.5rem 0.8rem;
+    color: #000000;
+    transition: all 0.3s ease;
+}
+
+.pagination .pagination .page-link:hover,
+.pagination .pagination .page-link:active,
+.pagination .pagination .page-link:focus {
+    color: #fff;
+    background-color: var(--main-color);
+}
+
+.pagination .pagination .page-link svg {
+    transition: all 0.3s ease;
+}
+
+.pagination .pagination .page-link:hover svg {
+    fill: #fff;
+}
+
+.pagination .pagination .page-link span {
+    font-size: 1.2rem;
+}
+
+.pagination .pagination .icons .page-link {
+    padding: 15px 7px 7px;
+}
+
+.pagination .pagination .page-item:last-child .page-link {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.pagination .pagination .page-item:first-child .page-link {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.pagination .pagination .page-item.active .page-link {
+    color: #fff;
+    background-color: var(--main-color);
+}
+
+.pagination a {
+    text-decoration: none;
+    color: #2eca6a;
+    font-size: 1.3rem;
+}

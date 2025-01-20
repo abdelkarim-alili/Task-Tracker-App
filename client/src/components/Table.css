@@ -1,0 +1,63 @@
+.section-body .input-group {
+    float: right;
+}
+
+.section-body .table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.section-body .table-container::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+    background-color: #fff;
+}
+  
+.section-body .table-container::-webkit-scrollbar-thumb {
+    background-color: #daa8e2;
+}
+
+.section-body table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.section-body td,
+.section-body th {
+    border-bottom: 1px solid #dddddd;
+    text-align: left;
+    padding: 20px 8px;
+}
+
+.section-body td {
+    word-break: break-word;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.section-body table .button-action {
+    padding: 10px;
+    border-radius: 7px;
+    border-color: transparent;
+    cursor: pointer;
+    margin: 0 10px 10px;
+    transition: all 0.3s ease;
+}
+
+.section-body table .button-action:hover {
+    opacity: 0.8;
+}
+
+.section-body table .img-table {
+    width: 100px;
+    height: 100px;
+    border-radius: 7px;
+    object-fit: contain;
+}
+
+.section-body button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
